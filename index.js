@@ -6,3 +6,6 @@ function takeANumber (katzDeli, newCustomer){
   
 }
 
+function nowServing(katzDeli){
+  
+}
