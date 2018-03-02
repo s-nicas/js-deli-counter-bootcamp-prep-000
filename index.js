@@ -7,5 +7,8 @@ function takeANumber (katzDeli, newCustomer){
 }
 
 function nowServing(katzDeli){
-  
+  if(katzDeli.length===0){
+    return ""
+  }
+  katzDeli.shift()
 }
