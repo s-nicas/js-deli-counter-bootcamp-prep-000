@@ -15,10 +15,10 @@ function nowServing(katzDeli){
   }
 }
 
-function currentLine(katzDeli){
+function currentLine(line){
   var results = [];
-  for(var i=0; i<katzDeli.length; i++){
-    results. push([i]+'. '+katzDeli[i]);
+  for(var i=0; i<line.length; i++){
+    results. push([i]+'. '+line[i]);
   }
   
   return "The line is currently: "+ results.join();
